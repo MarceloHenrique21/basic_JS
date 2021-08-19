@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>CALCULAR </title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+<script>
+
+//- window.alert("ola") serve para mostrar um alerta na tela como um pop up
+
+//- window.confirm("") mostra um pop up na tela e pede uma confirmação para continuar 
+
+//- window.prompt("") pede para que voce digite algo no pop up
+
+//- let  nome = "marcelo"
+//- A variavel pode conter simbolos, porem n pode ter espaço ou ser palavra reservada
+
+//- declaração de variavel pode se utilizar "let" ou "var" ou "const"
+
+
+      var numero = Number(window.prompt("digite um numero")) 
+      // atribuindo o valor digitado a uma variavel
+
+	
+	    var numero2 = Number(window.prompt("digite um numero"))
+	 
+//- Number.parseInt serve para declarar que a variavel é inteiro, é necessario caso queira fazer uma soma entre 2 ou mais numeros
+
+//-Caso o numero não seja inteiro e tenha virgula o comando é Number.parseFloat()
+
+//-Tambem o javascript pode identificar qual é o tipo do numero digitando apenas Number()
+
+//-para converter numero para letra é window.alert("a soma dos dois numeros é " +String(s))
+
+	  var soma = numero + numero2
+
+    // + soma, - subtração, * multiplicação, / divisão, % resto da divisão, ** potencia
+
+    // outra forma de calcular variaveis seria: N +=4 significa que N recebe N+4 (N = N+4) OU (N+=4) isso pode ser feito com qualquer tipo de calculo
+// X++ é o mesmo que X+1 e X-- é igual X-1
+
+//apresentando o valor da variavel ao usuario utilizando pop up
+
+  window.alert(`a soma entre ${numero} e ${numero2} é ${soma}`)
+   
+// outra forma de apresentar o resultado na tela é: window.alert("a soma dos dois numeros é " +soma)
+
+
+    var nome = window.prompt("digite seu nome")
+    document.write(`seu nome tem ${nome.length} letras` )
+
+</script>
+
+
+  </body>
+</html>
